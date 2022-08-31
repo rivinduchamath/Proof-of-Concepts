@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/_2022/elasticsearchs/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/_2022/elasticsearchs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_2022/elastic_search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_2022/elastic_search/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_2022/googleservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_2022/googleservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_2022/jwtauthentication/src/main/java" charset="UTF-8" />

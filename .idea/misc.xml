@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/_2022/googleservice/pom.xml" />
+        <option value="$PROJECT_DIR$/_2022/elastic_search/pom.xml" />
       </list>
     </option>
   </component>
