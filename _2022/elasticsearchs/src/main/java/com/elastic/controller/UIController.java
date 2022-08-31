@@ -1,7 +1,7 @@
-package com.cloudofgoods.controller;
+package com.elastic.controller;
 
-import com.cloudofgoods.model.Product;
-import com.cloudofgoods.repository.ElasticSearchQuery;
+import com.elastic.model.Product;
+import com.elastic.repository.ElasticSearchQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

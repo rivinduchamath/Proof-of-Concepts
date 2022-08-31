@@ -1,4 +1,4 @@
-package com.cloudofgoods.configaration;
+package com.elastic.configaration;
 
 
 import co.elastic.clients.elasticsearch.ElasticsearchClient;

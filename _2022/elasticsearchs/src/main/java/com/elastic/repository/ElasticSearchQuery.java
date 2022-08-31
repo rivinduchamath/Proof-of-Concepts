@@ -1,10 +1,10 @@
-package com.cloudofgoods.repository;
+package com.elastic.repository;
 
 
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import co.elastic.clients.elasticsearch.core.*;
 import co.elastic.clients.elasticsearch.core.search.Hit;
-import com.cloudofgoods.model.Product;
+import com.elastic.model.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

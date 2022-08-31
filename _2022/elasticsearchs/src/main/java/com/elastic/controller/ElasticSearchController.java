@@ -1,7 +1,7 @@
-package com.cloudofgoods.controller;
+package com.elastic.controller;
 
-import com.cloudofgoods.model.Product;
-import com.cloudofgoods.repository.ElasticSearchQuery;
+import com.elastic.model.Product;
+import com.elastic.repository.ElasticSearchQuery;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RestController;

@@ -12,6 +12,8 @@
 
 
         <module>_2022/elasticsearchs</module>
+        <module>_2022/jwtauthentication</module>
+        <module>_2022/googleservice</module>
     </modules>
 
     <properties>

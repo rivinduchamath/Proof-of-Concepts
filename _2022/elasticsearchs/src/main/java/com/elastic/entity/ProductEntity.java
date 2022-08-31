@@ -1,4 +1,4 @@
-package com.cloudofgoods.entity;
+package com.elastic.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
