@@ -13,6 +13,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="googleservice" options="-parameters" />
       <module name="jwtauthentication" options="-parameters" />
     </option>
   </component>
