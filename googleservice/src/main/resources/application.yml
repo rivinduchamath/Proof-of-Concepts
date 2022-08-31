@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: COG Google Service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/redis?createDatabaseIfNotExist=true&useSSL=false
+    name:
+    username: root
+    password: mynewpassword
+    hikari:
+      data-source-properties:
+        cachePrepStmts: true
+        prepStmtCacheSize: 250
+        prepStmtCacheSqlLimit: 2048
+        useServerPrepStmts: true
+  redis:
+    host: localhost
+    port: 6379
+
+  # Spring Boot Admin
+  boot:
+    admin:
+      client:
+        url: http://localhost:4000
+logging:
+  file:
+    name: GOOGLE-SERVICE.log
+    max-history: 5
+    max-size: 10MB
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:  "*"
+
+  endpoint:
+    health:
+      show-details: always
+# --------End Spring Admin------------
+
+cloudOfGoods:
+  google:
+    key: AIzaSyBgJFHBsP4ZuLkpUHJhQJXqRjBAf3GN-qo
+    clientSecret: abcd
+server:
+  port: 8000

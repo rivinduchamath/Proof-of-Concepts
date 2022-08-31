@@ -1,0 +1,21 @@
+apiVersion: apps/v1 # Kubernetes API version
+kind: Deployment # Kubernetes' resource kind we are creating
+metadata: # Metadata of the resource kind we are creating
+  name: google-service-docker
+
+spec:
+  selector:
+    matchLabels:
+      app: google-service-docker
+  replicas: 2 # Number of replicas that will be created for this deployment
+  template:
+    metadata:
+      labels:
+        app: google-service-docker
+    spec:
+      containers:
+        - name: google-service-docker
+          image: google-service-docker:latest # Image that will be used to containers in the cluster
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000
