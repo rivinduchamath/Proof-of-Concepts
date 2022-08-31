@@ -1,0 +1,14 @@
+spring:
+  boot:
+    admin:
+      ui:
+        brand: "<img src= '/assets/img/logo.png'><span>Admin</span>"
+        title: 'COG Admin'
+        login-icon: '/assets/img/logo.png'
+        available-languages:
+          - en
+          - fr
+          - hi
+        view-settings:
+          - name: 'about'
+            enabled: false

@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="elasticsearchs" />
         <module name="googleservice" />
+        <module name="springadmin" />
+        <module name="elasticsearchs" />
+        <module name="oauth2" />
         <module name="jwtauthentication" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="jwtauthentication" target="11" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="elasticsearchs" options="-parameters" />
       <module name="googleservice" options="-parameters" />
       <module name="jwtauthentication" options="-parameters" />
+      <module name="oauth2" options="-parameters" />
+      <module name="springadmin" options="-parameters" />
     </option>
   </component>
 </project>
