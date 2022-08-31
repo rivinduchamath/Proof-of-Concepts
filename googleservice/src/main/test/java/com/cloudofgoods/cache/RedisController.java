@@ -1,7 +1,7 @@
-package com.cloudofgoods.cache;
+package com.google.cache;
 
-import com.cloudofgoods.dto.RequestLocationDTO;
-import com.cloudofgoods.model.locationmodel.LocationRoot;
+import com.google.dto.RequestLocationDTO;
+import com.google.model.locationmodel.LocationRoot;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -1,6 +1,6 @@
-package com.cloudofgoods.cache;
+package com.google.cache;
 
-import com.cloudofgoods.model.locationmodel.LocationRoot;
+import com.google.model.locationmodel.LocationRoot;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.cache.annotation.Cacheable;
