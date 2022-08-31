@@ -11,6 +11,7 @@
     <modules>
 
 
+        <module>_2022/elasticsearchs</module>
     </modules>
 
     <properties>
