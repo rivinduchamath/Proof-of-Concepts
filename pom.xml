@@ -16,6 +16,7 @@
         <module>_2022/googleservice</module>
         <module>_2022/springadmin</module>
         <module>_2022/oauth2</module>
+        <module>_2022/websocket</module>
     </modules>
 
     <properties>
