@@ -10,7 +10,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
 
-
         <module>_2022/elasticsearchs</module>
         <module>_2022/jwtauthentication</module>
         <module>_2022/googleservice</module>
