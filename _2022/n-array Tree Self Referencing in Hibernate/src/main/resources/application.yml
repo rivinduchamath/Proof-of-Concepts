@@ -1,0 +1,37 @@
+server:
+  port: 9095
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cogdb3?createDatabaseIfNotExist=true&useSSL=false
+    username: root
+    password: mynewpassword
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#  mvc:
+#    converters:
+#      preferred-json-mapper: gson
+
+  # JPA CONFIGURATIONS
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        jdbc:
+          time_zone: UTC
+
+allow:
+  headers: Content-Type,Authorization
+  origin: https://qa-pay-cloudofgoods.incubatelabs.com,https://qa-cloudofgoods.incubatelabs.com,https://qa-v2-cloudofgoods.incubatelabs.com,https://www.cloudofgoods.com,https://qa-v4-cloudofgoods.incubatelabs.com,http://localhost:3000
+
+
+cloudOfGoods:
+  redis:
+#    host: cogv5-qa.emqrxr.ng.0001.usw2.cache.amazonaws.com
+    host: localhost
+    port: 6379
